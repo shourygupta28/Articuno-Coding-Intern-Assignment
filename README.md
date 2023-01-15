@@ -1,0 +1,12 @@
+# Articuno-Coding-Intern-Assignment
+
+<h3> Instructions for setting up and running the API: </h3>
+a. Install Flask,Flask-SQLAlchemy, psycopg2 and PostgreSQL.
+b. Create a new Flask project and a new PostgreSQL database.
+c. In the PostgreSQL database, create two tables: one for messages and one for likes.
+d. In the messages table, include columns for the message text, the user who posted it, and the timestamp.
+e. In the likes table, include columns for the message ID, the user who liked it, and the timestamp.
+f. Use Flask to create routes for creating and querying messages and likes.
+g. Use PostgreSQL triggers to automatically update the "likes" count for a message whenever a new like is added or removed.
+h. Run the following command to create the tables in the database: db.create_all()
+i. Start the application by running 'flask run' command
