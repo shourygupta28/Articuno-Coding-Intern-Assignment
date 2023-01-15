@@ -21,6 +21,11 @@ class Like(db.Model):
     user = db.Column(db.String(50))
     timestamp = db.Column(db.DateTime)
 
+
+@app.route("/")
+def index():
+    return '<h3>This is the code for backend API, built to keep the record of likes on the messages</h3>'
+
 #To create a new message:
 @app.route('/message', methods=['POST'])
 def create_message():
