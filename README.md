@@ -1,6 +1,6 @@
 # Articuno-Coding-Intern-Assignment
 
-<h3> Instructions for setting up and running the API: </h3>
+Instructions for setting up and running the API:
   * Install Flask,Flask-SQLAlchemy, psycopg2 and PostgreSQL.
   * Create a new Flask project and a new PostgreSQL database.
   * In the PostgreSQL database, create two tables: one for messages and one for likes.
