@@ -10,3 +10,5 @@
   * Use PostgreSQL triggers to automatically update the "likes" count for a message whenever a new like is added or removed.
   * Run the following command to create the tables in the database: db.create_all().
   * Start the application by running 'flask run' command.
+
+### [Hasura Link](https://flaskapp.hasura.app/v1/graphql) 
