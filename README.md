@@ -11,4 +11,4 @@
   * Run the following command to create the tables in the database: db.create_all().
   * Start the application by running 'flask run' command.
 
-### [Hasura Link](https://cloud.hasura.io/project/d808665f-7f70-429e-b6c6-dba969f32ada/details) 
+### [Hasura Link](https://flaskapp.hasura.app/v1/graphql) 
